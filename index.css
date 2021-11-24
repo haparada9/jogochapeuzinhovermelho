@@ -1,0 +1,86 @@
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0.192); 
+    color: rgb(65, 65, 153);
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+ 
+.introducao {
+    text-align: center;
+    color:white;
+}
+.introducao1 {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.781);
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}    
+
+.personagens {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+        
+}
+
+
+.personagens img {
+    width:200px;
+    height: 250px;
+    display:flex;
+    border-radius: 35px;
+    margin: 10px;
+    
+}
+
+.img1 {
+    text-align: center;
+    
+}
+
+.botao {
+    border-radius: 13px;
+    height: 15%;
+}
+
+.personagens img:hover {
+    height: 250px;
+    border-radius: 50px;
+    opacity: 0.7;
+    
+}
+
+.botao:hover{
+        border-radius: 50px ;
+        color: blue;
+        font-weight: bold;
+}
+
+.rodape {
+    background: rgba(0, 0, 0, 0.63);
+    color:wheat;
+    margin-top: 15%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 640px);
